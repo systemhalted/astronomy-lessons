@@ -1,0 +1,44 @@
+#+TITLE: Weekly Astronomy Lessons — Index
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:index:
+#+STARTUP: content
+
+Observing site: Dallas-Fort Worth area, 33.15 N, 96.82 W, US Central time.
+Equipment: Seestar S50, binoculars, eyepiece telescope.
+Series format: one concept, one exercise on real targets that week, a few
+retrieval questions whose answers open the following session.
+
+* Sessions
+
+| # | Date       | Concept                                      | File                                            |
+|---+------------+----------------------------------------------+-------------------------------------------------|
+| 1 | 2026-09-09 | Altitude, azimuth, air mass                  | [[file:2026-09-09-session-01-altitude-azimuth-airmass.org][session 01]] |
+| 2 | 2026-09-11 | Sidereal day and the four-minute drift       | [[file:2026-09-11-session-02-sidereal-day.org][session 02]]        |
+| 3 | 2026-09-18 | Phase angle and grazing illumination         | [[file:2026-09-18-session-03-phase-angle.org][session 03]]        |
+| 4 | 2026-09-25 | Surface brightness vs integrated magnitude   | [[file:2026-09-25-session-04-surface-brightness.org][session 04]] |
+| 5 | 2026-10-02 | Retrograde motion as projected parallax      | [[file:2026-10-02-session-05-retrograde-motion.org][session 05]]   |
+| 6 | 2026-10-09 | The eye as two detectors; averted vision     | [[file:2026-10-09-session-06-averted-vision.org][session 06]]     |
+
+* Running threads
+
+- *Saturn brightness log* — opened Session 3, carried through opposition on
+  2026-10-04 to catch the Seeliger surge. Session 5 continued it.
+- *Saturn retrograde astrometry* — Seestar frames from Oct 2, Oct 3 and Oct 9,
+  predicted 283″/day against the Pisces field stars.
+- *Hand-span calibration* — established in Session 1 against Polaris at 33.15°,
+  reused whenever an angular estimate is needed in the field.
+
+* Open retrieval questions
+
+Session 6's four questions are still open; their answers belong at the top of
+Session 7.
+
+* A note on provenance
+
+Sessions 1 through 5 were written as chat sessions and were not saved at the
+time. These files reconstruct them from the session log kept in memory, which
+recorded each week's concept, exercise, retrieval questions and sky data. The
+physics, the figures and the observing plans are as delivered; the prose is
+rebuilt rather than original. The answer sections for Sessions 1 through 4 were
+worked out fresh here, since only the questions were logged. Session 6 is the
+original text.

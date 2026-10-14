@@ -1,0 +1,135 @@
+#+TITLE: Session 4 — Surface Brightness and the Fight Against Sky Background
+#+DATE: <2026-09-25 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 4
+
+* Answers to Session 3
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+Phase angle is the Sun–object–observer angle, and its vertex sits at the object
+being observed, not at your eye and not at the Sun.
+
+The full Moon shows no craters because the phase angle is then near zero. Light
+arrives head-on, every shadow falls directly behind the feature that cast it,
+and relief disappears. The albedo markings remain, so you still see the maria,
+but the topography is invisible.
+
+The extra brightening is the opposition surge, or Seeliger effect. Its cause is
+shadow hiding — at near-zero phase the shadows between ring particles are all
+concealed behind the particles themselves — reinforced by coherent backscatter.
+Saturn's rings show it strongly because a loose particle swarm has a great deal
+of shadow available to hide.
+
+A 3:1 shadow-to-height ratio gives tan(alt) = 1/3, so the local solar altitude
+is 18.4°.
+
+Rupes Recta is a fault scarp whose steep face looks west. Before local lunar
+noon the Sun is in the lunar east, so that face is turned away from the light and
+lies in its own shadow: a black line. After lunar noon the Sun has crossed to the
+west and shines directly onto the same face: a bright line. The cliff never
+changed; the illumination crossed over it.
+
+* Concept: total magnitude lies, surface brightness tells the truth
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+A catalogue magnitude is the object's *entire* light added up and reported as
+though it were a single point. For a star that is a fair description. For
+anything extended it is close to useless as a difficulty rating, because what
+your eye actually detects is contrast between the object and the sky right next
+to it. The relevant quantity is surface brightness: magnitude per square
+arcsecond.
+
+Work the two headline objects for tonight:
+
+| Object | Total mag | Apparent size | Surface brightness |
+|--------+-----------+---------------+--------------------|
+| M31    |       3.4 | 190' × 60'    | about 22.4 mag/as² |
+| M57    |       8.8 | 86" × 62"     | about 17.9 mag/as² |
+
+M31 is 5.4 magnitudes brighter in total and about 4.5 magnitudes per square
+arcsecond *fainter* on the sky. The catalogue ranking and the observing
+difficulty ranking are reversed, and the reason is that M31 spreads its light
+over roughly ten thousand times more sky.
+
+Now add the thing you are really fighting. The sky itself has a surface
+brightness: roughly 21.9 mag/as² at a genuinely dark site, perhaps 19 from
+suburban Dallas-Fort Worth on a moonless night, and brighter still with the Moon
+up. Detection happens when the object's surface brightness stands far enough
+above the background. Nothing about the object changes when the background rises,
+but the contrast collapses.
+
+This also settles a question that confuses people about magnification. Spreading
+the image over more area dims an extended object and the sky background in
+exactly the same proportion, so the contrast ratio does not improve — you have
+made a faint galaxy fainter for nothing. A star is different. It is a point
+source, so magnification spreads the *background* out while the star's light
+stays concentrated in a near-point image. Contrast against the background
+actually improves. That is why magnification is the right tool for splitting
+close double stars and the wrong tool for hunting faint galaxies.
+
+* Exercise: the full-Moon contrast test
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+Tonight is almost the worst night of the month, which makes it the best night to
+prove the point.
+
+** Friday, Sep 25, from 22:00
+
+Take M31 first, at 44° altitude with the Moon 43° away, and then M57 at 65°.
+Catalogue magnitudes say M31 should be trivially easier. Record honestly what you
+see. The prediction is that the magnitude-8.8 object is the straightforward one
+and the magnitude-3.4 object is a struggle.
+
+Then push magnification on M57, and on Epsilon Lyrae, the Double Double. M57
+should get dimmer and no easier. Epsilon Lyrae should get better as the
+components separate. Same eyepiece changes, opposite outcomes, for the reason in
+the concept above.
+
+** Saturday, Sep 26 — the extreme case
+
+Saturn sits 5.7° from the full Moon at 23:10. That is an absurd place to put a
+deep-sky object and Saturn will not care at all, because at magnitude 0.4 and a
+few arcseconds across its surface brightness is enormously above even
+moonlit sky. Then look at M33, which is 28° away from the Moon — four times
+further from the glare — and watch it lose. The comparison is the whole lesson in
+one pair of pointings.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item                | Friday Sep 25 | Saturday Sep 26 |
+|---------------------+---------------+-----------------|
+| Sunset              | 19:19         | 19:18           |
+| Astronomical dark   | 20:42         | 20:40           |
+| Moon illuminated    | 97%           | 100%            |
+| Moonrise            | 18:45         | 19:13           |
+| Saturn rise         | 19:47         | 19:43           |
+| Saturn transit      | approx. 01:57 at 59° | same     |
+
+Full Moon Sep 26 at 11:49 CDT. Saturn opposition Oct 4–5.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. Two open clusters are both magnitude 6, but one is 10' across and the other
+   is 60'. Under tonight's moonlight, which is easier and why?
+2. Why does magnification help on a close double star but not on a faint galaxy?
+3. Roughly how many magnitudes per square arcsecond of background does a full
+   Moon add, and does the answer differ at a dark site versus suburban skies?
+4. In two sentences a star-party visitor would follow, explain why Saturn
+   survives sitting 6° from the full Moon while M31 does not.
+
+/Answers were given at the opening of Session 5./

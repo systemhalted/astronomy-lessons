@@ -1,0 +1,108 @@
+#+TITLE: Session 1 — Altitude, Azimuth and Air Mass
+#+DATE: <2026-09-09 Wed>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 1
+
+* Concept: the two numbers that locate anything in your sky
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+Every object you point at has two coordinates in the frame that actually
+matters when you are standing in a field: altitude, the angle above the
+horizon, and azimuth, the compass bearing measured clockwise from north. Right
+ascension and declination are fixed to the sky and are what catalogues use, but
+they tell you nothing about whether a thing is observable tonight from your
+driveway. Altitude and azimuth change continuously, they are specific to your
+location and the moment, and they are what decides whether an object is worth
+setting up for.
+
+Altitude matters more than azimuth, because altitude sets how much atmosphere
+you are looking through. That quantity is called air mass, and to a good
+approximation it is the cosecant of the altitude:
+
+: air mass = 1 / sin(altitude)
+
+| Altitude | Air mass |
+|----------+----------|
+|      90° |     1.00 |
+|      60° |     1.15 |
+|      45° |     1.41 |
+|      40° |     1.56 |
+|      30° |     2.00 |
+|      20° |     2.92 |
+|      15° |     3.86 |
+|      10° |     5.76 |
+
+At the zenith you look through one atmosphere. At 30° you look through two. At
+10° you look through nearly six, and the image is being dragged through all of
+it. This is why the single most useful observing habit is to wait for altitude
+rather than fight for it.
+
+Air mass costs you three separate things. It dims the object, because more
+atmosphere absorbs and scatters more light. It reddens the object, because
+Rayleigh scattering removes short wavelengths far more efficiently than long
+ones, which is the same physics that makes a sunset red. And it destroys
+resolution, because every layer of turbulent air along the path smears the
+image, so seeing at low altitude is always worse than seeing overhead on the
+same night.
+
+* Exercise: calibrate your hand, then prove the air mass penalty
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+The point of this one is to give you an instrument you cannot leave at home.
+
+** Part one: calibrate your hand span
+
+Hold your arm out straight and spread your fingers. The span from thumb tip to
+little finger tip, at full arm's length, covers somewhere between 20 and 25
+degrees for most adults. Yours is yours and you need the actual number.
+
+Find Polaris. Its altitude above your northern horizon equals your
+geographic latitude, which from the Dallas-Fort Worth area is 33.15°, and this
+is exact enough for fieldwork because Polaris sits within a degree of the true
+pole. So you have a known 33° angle standing in your sky for free, every clear
+night, all year. Stack hand spans from the horizon up to Polaris and count. If
+it takes a span and a half, your span is about 22°. Write the number down and
+use it for the rest of the series.
+
+While you are there, calibrate the smaller units too: a fist at arm's length is
+roughly 10°, three middle fingers roughly 5°, the little fingernail roughly 1°.
+Check each against the Polaris baseline rather than trusting the textbook
+figure.
+
+** Part two: the same object, twice
+
+Pick Saturn and observe it twice on the same night, once low in the east
+shortly after it clears the horizon and once near the meridian hours later.
+Same telescope, same eyepiece, same eye, same target. Note each time what you
+can and cannot see: ring separation, the Cassini division if conditions allow,
+the banding on the globe, and the colour of the globe itself.
+
+The low view will be dimmer, distinctly more yellow-orange, and mushy. The high
+view will be sharper and whiter. Nothing about Saturn changed in those hours.
+The entire difference is the column of air you were looking through, and the air
+mass table tells you how much of it there was.
+
+Doing this once, deliberately, is what turns the table above from a fact you
+know into a habit you have.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. How many degrees is your own hand span at arm's length, and what known angle
+   in the sky did you check it against?
+2. State the Polaris rule in one sentence, the way you would say it to a
+   stranger at a public star party.
+3. What is the air mass at 30° altitude, and what does that number physically
+   mean?
+4. Why do objects low in the sky look redder than the same objects overhead?
+
+/Answers were given at the opening of Session 2./

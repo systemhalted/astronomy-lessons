@@ -1,0 +1,141 @@
+#+TITLE: Session 6 — Your Eye Is Two Detectors
+#+DATE: <2026-10-09 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 6
+
+* Answers to Session 5
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+At opposition Earth and Saturn both move the same direction across the line of
+sight, so only the difference counts: 29.8 − 9.6 = 20.2 km/s. Over a day that is
+1.745 × 10^6 km of sideways displacement, and at 8.434 AU (1.262 × 10^9 km) it
+subtends 1.383 × 10^-3 rad, or 285″. Earth's motion supplies all of it and
+Saturn's own orbital speed claws back only about a third. The 2″ gap against the
+ephemeris is eccentricity.
+
+Mars beats Saturn on 5.7 km/s because angular rate is speed divided by distance,
+and Mars at opposition is near 0.5 AU against Saturn's 8.4:
+
+: Mars   5.7 / 0.52  ->  about 1300 arcsec/day
+: Saturn 20.2 / 8.43 ->  about  285 arcsec/day
+
+About four and a half times faster. The distance divisor outweighs the velocity
+numerator by more than the velocity deficit costs.
+
+The missing 2.75° is Saturn's ecliptic latitude: −2.71° geocentric, −2.43°
+heliocentric. Opposition is defined in ecliptic *longitude* alone, and on Oct 4
+that longitude difference closed to 0.008°, but Saturn still sat two and a half
+degrees below Earth's orbital plane. Project Earth's 1 AU offset perpendicular to
+the Sun–Saturn line and divide:
+
+: 1 AU × sin(2.43°) = 0.042 AU
+: 0.042 / 8.434      = 5.03 × 10^-3 rad = 0.29°
+
+So the brightness surge peaked near zero phase, not at it.
+
+Public version of the conjunction question: retrograde happens when Earth
+overtakes a planet on the same side of the Sun, the way a car you pass seems to
+slide backwards. Near conjunction the planet is across the Sun from us, so we
+never pass it; our orbital motion swings our sightline the same direction the
+planet is already drifting, and the two add to give the fastest eastward motion of
+the whole cycle.
+
+* Concept: the sensitive detector has a hole in the middle
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+Cones fill the fovea, the central degree or so of your vision. They give you
+colour and fine detail and they need roughly a hundred times more light than rods
+do. Rods carry none of that information — they are achromatic and coarse — but
+they are far more sensitive, their density peaks about 15 to 20 degrees off the
+fovea, and there are essentially none at the very centre. The most sensitive part
+of your retina is not where you are pointing it.
+
+Rods also take time. Most of the gain arrives in twenty to thirty minutes, full
+adaptation closer to forty-five, and one glance at a phone screen resets it. Their
+peak response shifts bluer as well, near 500 nm against the cones' 555 nm, which
+is why faint nebulosity reads grey-green and why red light preserves adaptation.
+
+Session 4 was about the target: surface brightness against sky background. This is
+about the detector, and it changes which objects respond to technique.
+
+* Exercise: the same magnitude, two different detectors
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+| Object | Total mag | Extent | Detector required |
+|--------+-----------+--------+-------------------|
+| M33    |       5.7 | 0.5°   | rods, off-axis    |
+| Uranus |      5.64 | < 4"   | cones, direct     |
+
+Identical brightness totals, opposite requirements. Observe both and record which
+one averted vision helps.
+
+** Friday Oct 9
+
+Moon one percent lit and set at 18:20, sunset 19:01, astronomical dark 20:23.
+Start adapting by 21:45 with no white light.
+
+At 22:00 take M31 at 54° in the east, then M33 at 42°, using Mirach 7.1° away as
+the pointer. Centre M33 in binoculars and then deliberately shift your gaze to the
+field edge, which puts it 25 to 30 degrees off-axis apparent. Note whether it
+appears or strengthens. Repeat at 23:00 when M33 has climbed to 55°.
+
+At 00:00 take Uranus, by then 31° up in the east at air mass 1.9, and try the same
+trick. It should do nothing, which is the result you want.
+
+** Saturday Oct 10
+
+New Moon at 10:50 that morning, moonset 18:48, dark at 20:22.
+
+Map your own rod peak on M33 at three gaze offsets — field centre, halfway out,
+hard edge — and see which wins, then compare against the 15-to-20-degree figure.
+
+At 22:00 split Albireo at 60° for gold and blue, then find a faint star in the same
+field and confirm it shows no colour at all. That is rods doing the work.
+
+The Double Cluster climbs from 39° at 22:00 to 55° by midnight and is a good
+scotopic-shift target.
+
+Save Saturn for last, 49° at 23:00 and transiting at 00:55 at 59°, because at
+magnitude 0.4 it will cost you several minutes of adaptation.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item                | Friday Oct 9  | Saturday Oct 10 |
+|---------------------+---------------+-----------------|
+| Sunset              | 19:01         | 18:59           |
+| Astronomical dark   | 20:23         | 20:22           |
+| Moon illuminated    | 1%            | 0%              |
+| Moonset             | 18:20         | 18:48           |
+| Saturn alt at 23:00 | 49°           | 49°             |
+| Saturn transit      | 00:55 at 59°  | 00:55 at 59°    |
+
+New Moon Oct 10 at 10:50 CDT — the darkest weekend of the month.
+First Quarter Oct 18.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. What is physically absent from the centre of your fovea, and why does that make
+   a hole rather than just a dim spot?
+2. State in one sentence the rule that explains why averted vision helps M33 and
+   not Uranus at the same magnitude.
+3. If rods are about a hundred times more sensitive than cones, how many
+   magnitudes should dark adaptation buy? Does that match the naked-eye limit
+   going from about 4 to about 6, and if not, what supplies the rest?
+4. In two sentences for a Frisco StarFest visitor, why red flashlights?
+
+/Answers due at the opening of Session 7./

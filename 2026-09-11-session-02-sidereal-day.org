@@ -1,0 +1,125 @@
+#+TITLE: Session 2 — The Sidereal Day and the Four-Minute Drift
+#+DATE: <2026-09-11 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 2
+
+* Answers to Session 1
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+Your hand span is whatever you measured, and the baseline you checked it against
+was Polaris at 33.15° above the northern horizon.
+
+The Polaris rule, in public-facing form: the height of the North Star above your
+horizon is your latitude, so the same star that tells you which way is north
+also tells you how far north you are.
+
+Air mass at 30° is 1/sin(30°) = 2.00 exactly. It means you are looking through
+twice as much atmosphere as you would be if the object were straight overhead.
+
+Low objects redden because the longer air path scatters short wavelengths out of
+the beam far more efficiently than long ones. Blue light gets removed, red light
+survives, and what reaches your eye is what is left. It is the same mechanism as
+a red sunset, applied to a star.
+
+* Concept: the sky runs on a different clock than you do
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+A solar day is 24 hours: the time for the Sun to return to the same place in
+your sky. A sidereal day is the time for a *star* to return to the same place,
+and it is shorter:
+
+: sidereal day  = 23h 56m 04.09s  (86164.09 s)
+: solar day     = 24h 00m 00.00s  (86400.00 s)
+: difference    =      3m 55.91s  (235.91 s)
+
+The difference exists because Earth is doing two things at once. It spins, and
+it also moves about one degree further along its orbit each day. After one full
+rotation relative to the stars, Earth has to turn roughly one extra degree to
+bring the Sun back overhead, and that extra degree takes just under four
+minutes. So the sidereal day is the true rotation period and the solar day is
+the rotation period plus an orbital correction.
+
+The practical consequence is the one worth internalising. Every star, cluster
+and galaxy rises, transits and sets about *3 minutes 56 seconds earlier each
+night* by your wall clock. Round it to four minutes. Over a week that is half an
+hour. Over a month it is two hours. This is the whole reason the constellations
+turn over through the year, and it is also a prediction tool: if you know where
+something was at a given clock time tonight, you know where it will be at that
+same clock time any night you care to name.
+
+The companion figure: four minutes of clock time corresponds to very close to
+one degree of sky rotation (360° / 1436 min × 4 min = 1.003°). So the nightly
+drift is one degree of sky per night at a fixed clock time.
+
+* Exercise: measure the drift, then invert it
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+** Part one: two consecutive nights
+
+Pick a fixed terrestrial landmark — a roofline, a particular tree, a utility
+pole — something you can stand in exactly the same spot to use. Watch M31 and
+record the clock time at which it sits directly above that landmark. Do it again
+the following night from the same spot.
+
+The second time should be about four minutes earlier. One night of difference is
+uncomfortably close to your own timing error, which is exactly why part two
+matters.
+
+** Part two: stretch the baseline to eight nights
+
+Four minutes is hard to measure. Thirty-two minutes is easy. The prediction for
+this run was:
+
+| Date   | Predicted time over landmark |
+|--------+------------------------------|
+| Sep 11 | 21:00                        |
+| Sep 19 | 20:28                        |
+
+That is 32 minutes over 8 nights, or 4.0 minutes per night. Stretching the
+baseline divides your timing error by the number of nights, which is the general
+trick for measuring any slow rate with crude equipment.
+
+** Part three: run it backwards
+
+Prediction is the real payoff. Saturn reached 27° altitude at a particular clock
+time on the night of Sep 11. Using the drift rule, work out when it next returns
+to 27°:
+
+: shift = N nights × 3m 55.91s
+
+For three weeks out, 21 × 235.91 s = 4954 s = 82.6 minutes, so an object that
+hit a given altitude at 22:00 tonight hits it at about 20:37 twenty-one nights
+from now. Then go outside and check it.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item            | Value                        |
+|-----------------+------------------------------|
+| New Moon        | Sep 10 — dark weekend        |
+| Saturn rise     | approx. 20:45 CDT            |
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. What is the length of a sidereal day, and what does the difference from 24
+   hours physically represent?
+2. An object reaches 40° altitude at a known clock time tonight. At roughly what
+   clock time does it reach 40° three weeks from now, and show the arithmetic.
+3. Why do the planets not follow the four-minute rule exactly, when the stars do?
+4. How many degrees of sky rotation correspond to four minutes of clock time?
+
+/Answers were given at the opening of Session 3./

@@ -1,0 +1,121 @@
+#+TITLE: Session 5 — Retrograde Motion as Projected Parallax
+#+DATE: <2026-10-02 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 5
+
+* Answers to Session 4
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+The 10' cluster is easier. Both deliver the same total light, but the compact one
+concentrates it into a thirty-sixth of the sky area, so its surface brightness is
+about 3.9 mag/as² higher and it stands that much further above the moonlit
+background.
+
+Magnification helps a double star because a star is a point source: enlarging the
+image spreads the sky background out while the stellar images stay essentially
+point-like, so contrast improves and the pair separates. A galaxy is extended, so
+magnification dims object and background in the same proportion, leaving contrast
+unchanged and the view merely fainter.
+
+A full Moon costs roughly 3 mag/as² at a genuinely dark site, taking the sky from
+about 21.9 to about 18.9. From suburban Dallas-Fort Worth, where the moonless sky
+is already near 19, it costs far less — perhaps 1 to 1.5 magnitudes — because
+light pollution has already spent most of that budget. The counterintuitive
+corollary is that moonlight hurts dark-site observers much more than it hurts us.
+
+Public version: Saturn is tiny and intensely bright, so it packs its light into a
+few arcseconds and swamps anything the Moon does to the sky around it. M31 spreads
+a similar amount of light across an area bigger than your fist at arm's length, so
+the moonlit sky is brighter than the galaxy is and there is nothing left to see.
+
+* Concept: retrograde motion is your own sideways velocity, projected
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+Outer planets periodically stop their eastward march against the stars, back up
+westward for weeks, stop again and resume. There is nothing happening at the
+planet. What you are seeing is Earth's own transverse velocity projected onto the
+sky, and the moment it peaks is opposition.
+
+At opposition, Earth and the outer planet are lined up on the same side of the
+Sun and both are moving in the same direction, perpendicular to your line of
+sight. Only the difference in speed matters:
+
+: Earth   29.8 km/s
+: Saturn   9.6 km/s
+: relative 20.2 km/s transverse
+
+Run that through one day at Saturn's opposition distance of 8.434 AU:
+
+: 20.2 km/s × 86400 s        = 1.745 × 10^6 km of sideways displacement
+: 8.434 AU                   = 1.262 × 10^9 km
+: 1.745e6 / 1.262e9          = 1.383 × 10^-3 rad
+: × 206265                   = 285 arcsec/day
+
+The ephemeris gives 283″/day. The 2″ residual is orbital eccentricity — neither
+body is travelling at its circular-orbit mean speed on this particular date.
+
+Note which term dominates. Earth supplies the entire 29.8 km/s and Saturn's own
+orbital motion claws back only about a third of it. Retrograde motion is
+overwhelmingly a statement about us, not about the planet.
+
+* Exercise: measure 283 arcseconds per day with the Seestar
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+The predicted rate is 283″/day, which is 4.7′ per night and 32.9′ over seven
+nights. That last figure is about the diameter of the full Moon, so it is well
+within reach of a wide field.
+
+Frame Saturn deliberately *off-centre* against the Pisces field stars, so there is
+room for it to travel across the frame rather than out of it. Capture on Friday
+Oct 2, Saturday Oct 3 and again the following Friday. Keep the framing as close to
+identical as you can manage — the field stars are your fixed reference, not the
+frame edge.
+
+For an in-frame ruler, use Saturn's rings. The ring span is about 45″, so a
+night's motion is roughly six ring-spans. You can state the result as a multiple
+of something visible in the same image, which is a far more convincing
+demonstration at a public event than a number you assert.
+
+Continue the Saturn brightness log from Session 3 through opposition night, which
+is where the Seeliger surge should show up in your own data.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item                | Friday Oct 2  | Saturday Oct 3  |
+|---------------------+---------------+-----------------|
+| Sunset              | 19:10         | 19:08           |
+| Astronomical dark   | 20:32         | 20:31           |
+| Moonrise            | 23:46 (54%)   | 00:55 (42%)     |
+| Saturn alt at 22:00 | 33°           | 33°             |
+| Saturn transit      | 01:29 at 59°  | 01:25 at 59°    |
+
+Saturn opposition Oct 4 at 07:28 CDT, distance 8.434 AU, disk 19.7″.
+Last Quarter Oct 3. New Moon Oct 10.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. Rederive the 283″/day figure from orbital speeds and distance, and say which
+   term dominates.
+2. Mars has only 5.7 km/s of excess speed over its own orbital motion at
+   opposition, against Saturn's 20.2. Why does Mars retrograde faster?
+3. Saturn's phase angle at opposition is not zero. What is the missing 2.75°, and
+   what residual phase angle does it produce?
+4. In two sentences for a public audience, explain why outer planets never
+   retrograde near conjunction.
+
+/Answers were given at the opening of Session 6./

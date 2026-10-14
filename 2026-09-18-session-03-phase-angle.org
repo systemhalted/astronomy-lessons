@@ -1,0 +1,131 @@
+#+TITLE: Session 3 — Phase Angle and What Grazing Light Reveals
+#+DATE: <2026-09-18 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 3
+
+* Answers to Session 2
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+A sidereal day is 23h 56m 04.09s. The 3m 55.91s shortfall against the solar day
+is the time Earth needs to turn the extra degree it has travelled along its
+orbit since the previous noon. The sidereal day is the real rotation period; the
+solar day carries an orbital correction.
+
+Three weeks is 21 nights, so the shift is 21 × 235.91 s = 4954 s = 82.6 minutes
+earlier. An object at 40° at 22:00 tonight reaches 40° at roughly 20:37 three
+weeks on.
+
+The planets do not obey the rule exactly because they are moving against the
+star background on their own account. The four-minute drift is purely Earth's
+rotation-versus-orbit bookkeeping and applies cleanly only to objects fixed on
+the celestial sphere. A planet's own motion adds to or subtracts from it, which
+is why Saturn's rise time slips by a bit more or less than four minutes a night
+depending on where it is in its cycle.
+
+Four minutes of clock time is 1.003° of sky rotation — call it one degree.
+
+* Concept: phase angle, and why the Moon is best when it is worst
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+Phase angle is the angle Sun–object–observer, with its vertex *at the object you
+are looking at*. That vertex location is the part people get wrong, and it is
+the part that makes the concept useful.
+
+When the phase angle is large, sunlight is arriving nearly sideways relative to
+your line of sight. Every bump casts a long shadow across the surface toward
+you, and the surface reads as texture and relief. When the phase angle is near
+zero, the Sun is almost directly behind your head, light arrives head-on, and
+every shadow falls directly behind the object that cast it where you cannot see
+it. The surface flattens out into brightness variation with no relief at all.
+
+This is why the full Moon is the worst night of the month for lunar detail. At
+full, the phase angle is near zero, the Sun is effectively overhead across the
+whole visible disc, and the craters that were spectacular a week earlier have no
+shadows to show. The albedo markings are still there — the maria are still dark
+— but the topography is gone. The place to work is the terminator, the
+day-night boundary, where the Sun is low on the lunar horizon and the phase
+angle contribution is extreme.
+
+The same geometry runs the other way for a different effect. Near zero phase
+angle, some surfaces get *brighter* than a simple illumination model predicts,
+because the shadows that normally reduce the average brightness are all hidden
+behind their own particles. This is shadow hiding, and combined with coherent
+backscatter it produces the opposition surge, also called the Seeliger effect.
+Saturn's rings show it strongly because they are a loose swarm of particles with
+a great deal of shadow to hide.
+
+A useful quantitative handle: if you can see a shadow and estimate its length
+relative to the height of the thing casting it, you have the local solar
+altitude directly.
+
+: tan(local solar altitude) = height / shadow length
+
+A shadow three times the height of its crater wall means the Sun is 18.4° above
+that crater's local horizon.
+
+* Exercise: read the terminator twice, and start a brightness log
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+** Friday, Sep 18 — colongitude about 3°
+
+The terminator runs near the great crater chain
+Ptolemaeus–Alphonsus–Arzachel. Pick one crater, estimate the length of the
+shadow its eastern wall throws across the floor as a multiple of the wall
+height, and convert with the formula above. You are measuring the Sun's altitude
+at a place on another world from your back garden, with an eyepiece and
+arithmetic.
+
+** Saturday, Sep 19 — colongitude about 15°
+
+The terminator has moved west and Rupes Recta, the Straight Wall, is on it.
+Repeat the shadow measurement. Note that the scarp appears as a stark black line
+at this stage. Record that appearance, because the retrieval question below turns
+on it.
+
+** Both nights — the brightness log
+
+Saturn reaches opposition on Oct 4–5. Starting tonight, record an estimate of
+its brightness every clear night, comparing against a fixed nearby field star so
+you have a reference that does not change. The point is to catch the opposition
+surge in your own data rather than read about it.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item                  | Friday Sep 18 | Saturday Sep 19 |
+|-----------------------+---------------+-----------------|
+| Moon illuminated      | 52%           | 61%             |
+| Moonset               | 00:12         | 01:07           |
+| Saturn rise           | approx. 20:15 | approx. 20:15   |
+| Saturn alt at 23:00   | 33°           | 33°             |
+| Saturn transit        | approx. 02:25 at 59° | same     |
+| M31 alt at 23:00      | 50°           | 50°             |
+
+First Quarter Sep 18 at 15:43 CDT. Full Moon Sep 26.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. Define phase angle, and say precisely where its vertex sits.
+2. Why does the full Moon show no craters, when the same craters are obvious a
+   week earlier?
+3. Name the effect that makes Saturn brighter near opposition than simple
+   geometry predicts, and give its physical cause.
+4. A crater wall throws a shadow three times its own height. What is the local
+   solar altitude at that crater?
+5. Why is Rupes Recta a black line before lunar noon and a bright line after it?
+
+/Answers were given at the opening of Session 4./
