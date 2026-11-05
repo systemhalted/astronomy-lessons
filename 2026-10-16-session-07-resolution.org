@@ -1,0 +1,192 @@
+#+TITLE: Session 7 — Three Limits on Resolution, and Which One You Have
+#+DATE: <2026-10-16 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 7
+
+* Answers to Session 6
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+Rods are what is missing, entirely. The foveola is packed with cones and has
+essentially zero rod density, so in scotopic light the receptors present are
+below threshold and the ones that would work are not there at all. Nothing in
+that patch is responding, so there is no weak signal to strain at.
+
+The averted-vision rule is Session 4 restated on the detector side. It helps when
+the limit is surface brightness against the sky and does nothing when the limit
+is integrated magnitude. M33 spreads magnitude 5.7 over half a degree and sits
+barely above background; Uranus packs magnitude 5.64 into four arcseconds, far
+above background, so moving it onto coarse rod-sampled retina only costs
+resolution.
+
+A hundredfold sensitivity gain is 2.5 log(100), or five magnitudes, against an
+observed naked-eye gain of about two from 4 to 6. The shortfall is the sky rather
+than the eye: from suburban DFW the moonless background is near 19 mag/as², so
+contrast runs out long before rod sensitivity does. At a dark site the gain
+approaches the full figure.
+
+Red flashlights, for the public: your night vision lives in cells that take
+twenty to thirty minutes to switch on and about a second of white light to switch
+back off, and they are nearly blind to deep red. A red light lets you read a
+chart and watch your footing without them noticing.
+
+* Concept: three limits, and the loosest one wins
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+Three things cap the finest detail you can record, and your resolution on a given
+night is set by whichever is worst, not by whichever you paid for. Aperture is
+the first: diffraction spreads a point into an Airy disk set by wavelength and
+aperture alone, and the working rule is the Dawes limit, 116 divided by aperture
+in millimetres, in arcseconds. Sampling is the second, since a camera cannot
+record detail finer than roughly two pixels. The atmosphere is the third, running
+two to four arcseconds here and degrading as about air mass to the 0.6 power,
+which ties back to Session 1.
+
+| Limit                      | Value |
+|----------------------------+-------|
+| Dawes, 50 mm               | 2.32″ |
+| Rayleigh, 550 nm           | 2.77″ |
+| Pixel scale, 2.9 µm/250 mm | 2.39″ |
+| Nyquist sampling floor     | 4.8″  |
+| Typical DFW seeing         | 2–4″  |
+
+The Seestar's optics are the best thing in that table and are not what limits it.
+At roughly one pixel per Dawes limit it is undersampled, so its practical
+resolution is near five arcseconds before the atmosphere takes a share. An
+eight-inch scope has a Dawes limit of 0.57″ and never delivers it in Texas.
+Aperture buys light, and only sometimes buys detail.
+
+* Exercise: find your own number, then make it worse on purpose
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+Epsilon Lyrae is the instrument. Its wide pair is 208″ and splits in anything,
+while the two tight components at 2.35″ and 2.4″ sit at the edge of every limit
+in the table, so whether they split is a direct readout of the seeing.
+
+** Friday Oct 16
+
+Moon 36% lit and low, setting at 22:58, which costs nothing on stars this bright.
+
+Take Epsilon Lyrae at 20:30 with it 65° up at air mass 1.10, about the best air
+you will get, and push magnification until the tight pairs split cleanly, sit
+elongated, or stay round. Then walk down the ladder as Perseus climbs: eta Cas at
+13.7″ (54° at 22:00), Almach at 9.6″ (44.5°), gamma Arietis at 7.5″ (39.5°). The
+finest pair you can still part is your resolution for the night. Return to
+Epsilon Lyrae at midnight, down at 25.6° and air mass 2.31 — same optics, same
+eye, twice the atmosphere. It should fail, and the failure is the point. Saturn
+is at 43° at 22:00 and transits 00:26 at 58°; the Cassini division at 0.7″ will
+not resolve in 50 mm on any night, so treat it as a control.
+
+** Saturday Oct 17
+
+First Quarter arrives Sunday at 11:12, so the terminator is near-ideal, the Moon
+45% lit and 24° up at 21:00, setting 23:56.
+
+Convert your limit into kilometres. At 402,000 km one arcsecond on the Moon is
+1.95 km, so a 2.3″ aperture limit is 4.5 km of surface and the Seestar's sampling
+floor is nearer 9.5 km. Find the smallest craterlet you can confidently separate
+along the terminator and convert it; the Moon at 24° sits in air mass 2.4, so
+expect worse than 4.5 km. After moonset take Almach again at 56°, eleven degrees
+higher than Friday, and see whether the altitude changes the verdict.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item                | Friday Oct 16 | Saturday Oct 17 |
+|---------------------+---------------+-----------------|
+| Sunset              | 18:52         | 18:51           |
+| Astronomical dark   | 20:14         | 20:13           |
+| Moon illuminated    | 36%           | 45%             |
+| Moonset             | 22:58         | 23:56           |
+| Eps Lyr at 20:30    | 65° (X 1.10)  | 64° (X 1.11)    |
+| Eps Lyr at 00:00    | 26° (X 2.31)  | 25° (X 2.37)    |
+| Saturn alt at 22:00 | 43°           | 44°             |
+| Saturn transit      | 00:26 at 58°  | 00:22 at 58°    |
+
+First Quarter Oct 18 at 11:12 CDT. Uranus reaches 37° by midnight and transits
+near 03:55 at 78°.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. State the Dawes limit for your own eyepiece telescope, then say under what DFW
+  conditions you could ever actually achieve it.
+2. The Seestar's 2.39″ pixel scale is almost exactly its 2.32″ Dawes limit. Why
+  is that a bad match rather than a good one?
+3. If seeing is 2.5″ at the zenith and degrades as air mass to the 0.6 power,
+  what is it at 25° altitude, and does that account for Epsilon Lyrae failing at
+  midnight?
+4. In two sentences for a Frisco StarFest visitor, why does a bigger telescope not
+  necessarily show a sharper planet?
+
+/Answers due at the opening of Session 8./
+
+* Source and accuracy review
+:PROPERTIES:
+:CUSTOM_ID: review
+:END:
+
+Imported from [[https://docs.google.com/document/d/1GheRGsUTPz-Hm5LlKiZBTFfhdH6UQLQlEbjnYIISUsg/edit][Session 7 in Google Drive]] on 2026-11-05.
+The lesson text above preserves the source, including dated predictions and
+worked answers. These are teaching plans, not evidence that an observation was
+performed. Review notes below qualify or correct the text without rewriting it.
+
+** Resolution and visual observing
+
+- Arithmetic: 116/50 = 2.32 arcsec; 1.22 × 550 nm / 50 mm = 2.77
+  arcsec; 206265 × 0.0029/250 = 2.393 arcsec/pixel. At 402,000 km,
+  one arcsecond is 1.949 km, so 2.3 arcsec spans 4.48 km and 4.8
+  arcsec spans 9.36 km in the plane of the sky. Lunar foreshortening
+  prevents treating that directly as a surface distance near the limb.
+- Dawes is an empirical double-star criterion, not the Airy-disk formula.
+  The quoted 4.8 arcsec is a two-pixel sampling guideline, not a universal
+  hard cutoff. Pixel response, optics, seeing, Bayer sampling and processing
+  all matter. Subpixel dithers with reconstruction can recover some sampling
+  information. Blurs combine; simply selecting the worst number is a useful
+  first approximation, not an exact image-quality model.
+- The claims that eight inches never deliver 0.57 arcsec in Texas and buy no
+  detail are too absolute. Good seeing, cooling and collimation can permit
+  more detail than a 50 mm instrument; no local seeing record is supplied
+  to support the stated regional range or an absolute prohibition.
+- A failed Epsilon Lyrae split is not a direct measurement of seeing alone:
+  aperture, focus, collimation, magnification and observer also contribute.
+  The Seestar has no eyepiece; the magnification exercise needs the separate
+  eyepiece telescope, whose aperture should be measured rather than assumed.
+  Detecting a narrow dark line such as Cassini's division is different from
+  resolving two point sources; the claimed guaranteed failure is not a sound
+  control experiment. Ring opening and contrast also affect its visibility.
+- Averted vision can help faint point sources as well as extended objects.
+  Integrated magnitude alone does not rule it out. The quoted hundredfold
+  rod/cone sensitivity ratio and five-magnitude conversion do not by
+  themselves predict a person's dark-adaptation gain. Red light must be dim;
+  a bright red light can still impair adaptation. The original physiological
+  simplifications and local sky-brightness claims are not measurements.
+
+** Historical sky data
+
+PyEphem 4.2.1 checks at 33.15 N, 96.82 W broadly reproduce the listed sunset,
+astronomical dusk, moonset and Saturn transit times. Calculations use US Central
+civil time, a level sea-level horizon, no refraction for altitudes, a -34 arcmin
+horizon plus upper limb for rise/set, and solar centre -18 degrees for dusk.
+These are model comparisons, not observed conditions. Moon illumination varies
+through the evening. USNO confirms First Quarter on Oct 18 at 11:12 CDT.
+
+** References
+
+- [[https://astronomy.swinburne.edu.au/cosmos/R/Rayleigh+Criterion][Swinburne: Rayleigh criterion]]
+- [[https://hst-docs.stsci.edu/drizzpac/chapter-3-description-of-the-drizzle-algorithm/3-2-drizzle-concept][STScI: Drizzle and undersampling]]
+- [[https://pmc.ncbi.nlm.nih.gov/articles/PMC8389526/][Gaze mechanisms enabling detection of faint stars (research paper)]]
+- [[https://aa.usno.navy.mil/calculated/moon/phases?year=2026][USNO: 2026 lunar phases]]
+- [[https://rhodesmill.org/pyephem/quick.html][PyEphem: coordinate and rise/set conventions]]

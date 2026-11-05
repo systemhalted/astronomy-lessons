@@ -18,6 +18,9 @@ retrieval questions whose answers open the following session.
 | 4 | 2026-09-25 | Surface brightness vs integrated magnitude   | [[file:2026-09-25-session-04-surface-brightness.org][session 04]] |
 | 5 | 2026-10-02 | Retrograde motion as projected parallax      | [[file:2026-10-02-session-05-retrograde-motion.org][session 05]]   |
 | 6 | 2026-10-09 | The eye as two detectors; averted vision     | [[file:2026-10-09-session-06-averted-vision.org][session 06]]     |
+| 7 | 2026-10-16 | Resolution: aperture, sampling and seeing   | [[file:2026-10-16-session-07-resolution.org][session 07]] |
+| 8 | 2026-10-23 | Atmospheric refraction and lunar flattening | [[file:2026-10-23-session-08-atmospheric-refraction.org][session 08]] |
+| 9 | 2026-10-30 | Signal-to-noise, stacking and sky brightness | [[file:2026-10-30-session-09-signal-to-noise.org][session 09]] |
 
 * Running threads
 
@@ -28,10 +31,25 @@ retrieval questions whose answers open the following session.
 - *Hand-span calibration* — established in Session 1 against Polaris at 33.15°,
   reused whenever an angular estimate is needed in the field.
 
+- *Resolution checks* — Session 7 proposes double-star and lunar tests, followed
+  by Session 8's seeing calculation. No measured split verdicts are recorded.
+- *Refraction measurements* — Session 8 proposes lunar shape and rise-time tests;
+  Session 9 supplies a worked hypothetical image calculation.
+- *Stacking and sky background* — Session 9 proposes NGC 7331 sub-stacks and an
+  M33 depth test. Measured SNR and sky-background ratios remain unrecorded.
+
 * Open retrieval questions
 
-Session 6's four questions are still open; their answers belong at the top of
-Session 7.
+Sessions 1–9 are archived, through 2026-10-30. Worked answers to Session 6
+appear in [[file:2026-10-16-session-07-resolution.org::#answers][Session 7]], answers to Session 7 in
+[[file:2026-10-23-session-08-atmospheric-refraction.org::#answers][Session 8]], and answers to Session 8 in
+[[file:2026-10-30-session-09-signal-to-noise.org::#answers][Session 9]]. These are lesson answers, not a record of learner submission
+or successful observing.
+
+[[file:2026-10-30-session-09-signal-to-noise.org::#retrieval][Session 9's four retrieval questions]] remain open for Session 10. They cover
+exposure depth, stacking limits, the measured lunar-background penalty and
+explaining photographic sensitivity. The background-ratio question needs actual
+measurements; none are supplied in the source documents.
 
 * A note on provenance
 
@@ -42,3 +60,11 @@ physics, the figures and the observing plans are as delivered; the prose is
 rebuilt rather than original. The answer sections for Sessions 1 through 4 were
 worked out fresh here, since only the questions were logged. Session 6 is the
 original text.
+
+Sessions 7–9 were imported from the linked Google Drive documents on 2026-11-05.
+Session 7 uses its embedded Org source once, without duplicating the rendered
+lesson. Its appendix claims that source already existed in GitHub, but the
+checked main revision contained only Sessions 1–6. Sessions 8–9 were converted
+from document text. Original prose, calculations, questions and historical sky
+predictions are retained; each new lesson has a separate source and accuracy
+review section. Review notes distinguish corrections from the historical text.

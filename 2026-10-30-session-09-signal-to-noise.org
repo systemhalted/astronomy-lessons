@@ -1,0 +1,217 @@
+#+TITLE: Session 9 — Signal Adds, Noise Only Adds Up Slowly
+#+DATE: <2026-10-30 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 9
+
+* Answers to Session 8
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+The cotangent rule gives 11.4′ at 5° against the table's 10.2′, and 1.00′ at
+45° against 1.0′, so it is exact where the lift hardly matters and worst where
+it does. At published sunset the upper limb is apparently on the horizon, so it
+is 34′ down geometrically and the centre a semidiameter further, 50′ in all,
+about 1.6 solar diameters.
+
+Refraction displaces an object along the vertical only, by an amount set by
+altitude alone. The lower limb looks through a longer slant path than the upper
+and is lifted more, so the disk loses height. The left and right limbs sit at
+equal altitude, pass through identical air and are lifted identically in the
+same direction, so the width never changes.
+
+A disk 803 pixels wide and 770 tall is 4.1 percent squashed, between the 2° and
+5° rows and nearer the latter, so about 3.5°. The Moon passed 2.2° at 17:55 and
+4.2° at 18:05 on Saturday, putting that frame near 18:01. For a visitor: the
+air bends light downward and lifts the low Sun into view by roughly its own
+width, so the printed time is when you can still see it rather than when it is
+really there.
+
+* Concept: four times the time for twice the result
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+Target photons accumulate in proportion to total integration, but the noise
+that buries them accumulates as its square root, since the dominant term under
+suburban skies is photon noise in the background. Signal-to-noise therefore
+goes as the square root of time, and the consequence is that quadrupling the
+exposure only doubles the contrast. The depth gained is 1.25 times the
+logarithm of the time factor, so a factor of ten buys 1.25 magnitudes, less
+than the 1.5 that doubling aperture gives.
+
+Background enters as a divisor, so the cost of a bright sky is linear: twice
+the background needs twice the integration for the same result. A gibbous Moon
+does not hide a galaxy, it taxes the clock, and the tax is a multiplier you can
+measure. Stacking never touches Session 7's resolution limit, and it stops
+helping once gradients and fixed-pattern terms dominate, because those do not
+average down.
+
+| Integration | 10-s subs | Relative SNR | Depth vs 5 min |
+|-------------+-----------+--------------+----------------|
+| 5 min       | 30        | 1.00         | —              |
+| 10 min      | 60        | 1.41         | +0.38 mag      |
+| 20 min      | 120       | 2.00         | +0.75 mag      |
+| 40 min      | 240       | 2.83         | +1.13 mag      |
+| 80 min      | 480       | 4.00         | +1.51 mag      |
+| 135 min     | 810       | 5.20         | +1.79 mag      |
+
+| Background ratio | Sky brighter by | Time to hold SNR |
+|------------------+-----------------+------------------|
+| 1.5×             | 0.44 mag/as²    | 1.5×             |
+| 2.0×             | 0.75 mag/as²    | 2.0×             |
+| 3.0×             | 1.19 mag/as²    | 3.0×             |
+| 4.0×             | 1.51 mag/as²    | 4.0×             |
+
+* Exercise: one run, two measurements
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+** Friday Oct 30
+
+Dark begins 20:01 and the 69 percent Moon rises 22:46, giving 165 moonless
+minutes and then a controlled change in the sky. NGC 7331 in Pegasus, magnitude
+9.5, transits 21:27 at 88.6° and holds above 80° from 20:45 to 22:15 at air
+mass under 1.02, which removes altitude from the experiment. Run 10-second subs
+continuously from 20:45 to 23:30 and do the work afterwards on that one
+dataset. Sub-stack the moonless part into 5, 10, 20, 40 and 80-minute totals,
+measure signal-to-noise on the outer disk against adjacent sky, and check it
+against the table. Then compare the background rate per second per pixel near
+22:30, Moon 2° below the horizon, with the subs near 23:20, Moon 6° up and 103°
+away: that ratio is your lunar tax. The galaxy also fell from 80° to 65°, which
+raises background on its own, so treat the ratio as an upper bound.
+
+** Saturday Oct 31
+
+Dark at 20:00 and no Moon until 23:57 gives 237 minutes, so run the curve
+forward instead of measuring it again. M33 climbs from 53° at 21:30 to 81° at
+23:45. Build a 10-minute stack early, pick the faintest field star you would
+call a detection, and predict its counterpart in the full 135-minute stack:
+13.5 times the time, 1.41 magnitudes deeper. Plate-solve and check that against
+catalogue magnitudes rather than the screen. The next 1.4 magnitudes costs
+another factor of 13.5, or thirty hours, which is why faint-object work is
+counted in nights. Close on Saturn, 57.6° at 23:00.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item                 | Friday Oct 30  | Saturday Oct 31 |
+|----------------------+----------------+-----------------|
+| Sunset               | 18:36          | 18:35           |
+| Astronomical dark    | 20:01          | 20:00           |
+| Moonrise (azimuth)   | 22:46 (59°)    | 23:57 (63°)     |
+| Moon illuminated     | 69.4%          | 58.3%           |
+| Moonless dark window | 165 min        | 237 min         |
+| NGC 7331 transit     | 21:27 at 88.6° | 21:23 at 88.6°  |
+| M33 at 23:00         | 71.9° (X 1.05) | 72.7° (X 1.05)  |
+| M31 at 22:00         | 69.7°          | 70.4°           |
+| Saturn at 23:00      | 57.4°          | 57.6°           |
+| Uranus transit       | 02:59 at 77.8° | 02:55 at 77.8°  |
+
+Last Quarter is Nov 1 at 15:28 and New Moon Nov 9 at 02:02 CST, so the next two
+weekends are darker. Daylight saving ends at 02:00 on Nov 1, moving everything
+an hour earlier on the clock from Sunday.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. Derive the 1.25 magnitudes per factor of ten from signal-to-noise going as
+   the square root of time, then say how long a two-magnitude gain on a
+   10-minute stack would take.
+
+2. You stack 100 subframes. What improves by a factor of ten, what does not
+   improve at all, and which of the two decides where adding frames stops
+   paying?
+
+3. From Friday's measured background ratio, state what the Moon cost in
+   mag/arcsec² and how many minutes would match a moonless 40-minute stack.
+   Then say whether moving 60° further from the Moon would help, and why that
+   differs from moving higher.
+
+4. In two sentences for a Frisco StarFest visitor: why does a photograph
+   through this telescope show M33's spiral arms when their own eye at the same
+   eyepiece sees a faint smudge?
+
+/Answers due at the opening of Session 10./
+
+* Source and accuracy review
+:PROPERTIES:
+:CUSTOM_ID: review
+:END:
+
+Imported from [[https://docs.google.com/document/d/1OyG2May49moVG_xb0GrCKUNGFXcJ-4ZPFD099N0ZxoE/edit][Session 9 in Google Drive]] on 2026-11-05.
+The lesson text above preserves the source, including dated predictions and
+worked answers. These are teaching plans, not evidence that an observation was
+performed. Review notes below qualify or correct the text without rewriting it.
+
+** Signal-to-noise and calculations
+
+- For source rate s, sky rate b, dark rate d (all in the same measurement
+  aperture), total time t, N frames, and read-noise variance r^2 per frame,
+  SNR = s t / sqrt((s + b + d)t + N r^2), before extra background-estimation
+  and systematic terms. With fixed subexposure length and stable conditions,
+  SNR scales as sqrt(t). In the sky-dominated limit it scales as sqrt(t/b).
+  Twice the sky rate then needs twice the time for the same SNR.
+- Four times the time doubles SNR, not the object's physical contrast against
+  the sky. The positive limiting-magnitude gain is 1.25 log10(t2/t1).
+  All integration-table counts, SNR ratios and rounded magnitude gains check
+  out. The background table gives positive brightness differences; a brighter
+  sky has a numerically smaller mag/arcsec^2 value.
+- 135/10 = 13.5 and 1.25 log10(13.5) = 1.413 mag. Another factor 13.5
+  takes the total to 1,822.5 minutes = 30.4 hours, rather than thirty
+  additional hours. This assumes unchanged sky, throughput and detection
+  threshold. Doubling aperture's 1.5-mag collecting-area gain is not a
+  general sky-limited imaging-depth comparison; angular measurement area,
+  focal ratio, image scale and PSF must also be specified.
+- Ordinary averaging does not beat diffraction or seeing. Dithered subpixel
+  reconstruction can improve undersampling, so stacking never changes
+  resolution is too broad. Calibration, dithering and gradient modelling
+  can reduce some systematic terms; they need not impose an immutable floor.
+- The Friday before/after background ratio mixes Moon, air mass, transparency
+  and instrumental changes. It is a confounded comparison, not a guaranteed
+  upper bound on the Moon's contribution. Subtract bias/dark consistently,
+  use linear un-stretched data and identical measurement apertures, retain
+  accepted subframes, and report elapsed versus actual accepted exposure.
+  A Seestar run near the zenith may also have alt-az tracking and field-rotation
+  limitations, so the planned 10-second frames are not guaranteed usable.
+- Session 8's refraction-model and hypothetical lunar-image qualifications
+  apply to the worked answers here. Standard sunset places the solar centre
+  about 50 arcmin below the horizon (about 1.6 diameters); the 34 arcmin
+  refraction shift alone is about one diameter. The cotangent rule is an
+  approximation, including at 45 degrees, rather than exact physics.
+
+** Historical sky data and time zones
+
+USNO gives Last Quarter on Nov 1 at 20:28 UTC = 14:28 CST, not the source's
+15:28. New Moon is Nov 9 at 07:02 UTC = 01:02 CST, not 02:02 CST.
+Clocks return from CDT to CST on Nov 1. The original times remain above.
+
+With the PyEphem conventions in Session 7's review, sunset is approximately
+18:37 CDT on Oct 30 and 18:36 on Oct 31 (source: 18:36 and 18:35);
+moonrise is about 22:45 and 23:56 (source: 22:46 and 23:57). Dusk agrees
+at 20:01 and 20:00. A one-minute model difference also changes the nominal
+moonless windows by a minute. Saturn's listed 23:00 altitudes agree.
+At 22:30 on Oct 30 the Moon's geometric centre is about -3.4 degrees,
+not -2; at 23:20 it is about 5.2 degrees, not 6 (refraction raises it
+slightly). Other exact stellar altitudes, transit times, lunar separations and
+Uranus ephemerides have not all been independently recalculated here. Preserve
+them as source predictions, not validated observation logs.
+
+The four retrieval questions above remain unanswered for Session 10. In
+particular, no measured Friday background ratio is present; do not invent one.
+
+** References
+
+- [[https://www.eso.org/~ohainaut/ccd/sn.html][ESO: signal and noise equations]]
+- [[https://hst-docs.stsci.edu/drizzpac/chapter-3-description-of-the-drizzle-algorithm/3-2-drizzle-concept][STScI: recovering sampling information with dithers]]
+- [[https://aa.usno.navy.mil/calculated/moon/phases?year=2026][USNO: 2026 lunar phases in UTC]]
+- [[https://aa.usno.navy.mil/faq/RST_defs][USNO: rise/set conventions and uncertainty]]
+- [[https://rhodesmill.org/pyephem/quick.html][PyEphem: ephemeris conventions]]

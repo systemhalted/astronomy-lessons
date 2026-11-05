@@ -1,0 +1,200 @@
+#+TITLE: Session 8 — Refraction, and the Flattened Moon
+#+DATE: <2026-10-23 Fri>
+#+AUTHOR: Palak Mathur
+#+FILETAGS: :astronomy:lesson:
+#+STARTUP: overview
+#+PROPERTY: site Dallas-Fort Worth, 33.15 N, 96.82 W
+#+PROPERTY: session 8
+
+* Answers to Session 7
+:PROPERTIES:
+:CUSTOM_ID: answers
+:END:
+
+Your eight-inch gives 116/203, or 0.57 arcseconds, and North Texas never
+delivers it. That needs sub-arcsecond zenith seeing with the tube cooled and no
+roof plume in the path, where DFW runs two to four and its best nights land
+near 1.5. Eight inches buy light, not detail.
+
+One pixel per resolution element cannot represent a feature; it takes two
+across it before a detector records a feature rather than one brighter square.
+So the Seestar's 2.39-arcsecond pixels put its real floor near 4.8 arcseconds,
+twice its own optical limit, and detail between the two figures is gathered by
+the optics and discarded by the sensor.
+
+Air mass at 25 degrees is 1/sin 25, or 2.37, and that to the 0.6 power is 1.65,
+so 2.5 arcseconds at the zenith becomes 4.1. Epsilon Lyrae's tight pairs are
+2.35 and 2.4 arcseconds, well inside that blur, so the midnight failure was
+predictable before you looked.
+
+For a visitor: a bigger mirror collects more light and shows fainter things,
+but sharpness depends on the air the light came through, and in Texas the air
+is almost always the limit.
+
+* Concept: the atmosphere lifts everything, and lifts the bottom more
+:PROPERTIES:
+:CUSTOM_ID: concept
+:END:
+
+Session 1 covered what a slant path takes away and Session 7 what it does to
+fine detail. The third thing it does is bend the whole beam, so every object
+appears higher than it geometrically is — about 34 arcminutes of lift at the
+horizon, falling off roughly as the cotangent of altitude, which makes it
+larger than the Moon's own diameter down low and nothing at all overhead.
+
+Two consequences matter in the field. Published rise and set times already
+include this, so at the moment of sunset the Sun's whole disk is geometrically
+below the horizon and you are watching an object that has already set. And the
+lift is not uniform across a disk: the lower limb sits in thicker air and rises
+more than the upper, so a low Moon is squashed vertically while its width is
+untouched. Refraction is wavelength-dependent too, bending blue about 1.3
+percent more than red, which smears a low target into a short vertical colour
+streak.
+
+| Centre altitude | Refraction lift | Vertical squash on a 32' disk | Blue–red spread |
+|-----------------+-----------------+-------------------------------+-----------------|
+| 0°              | 34.0'           | 6.5' (20%)                    | 22"             |
+| 2°              | 17.4'           | 2.4' (7.5%)                   | 14"             |
+| 5°              | 10.2'           | 0.84' (2.6%)                  | 7.5"            |
+| 10°             | 5.3'            | 0.27' (0.8%)                  | 4.1"            |
+| 20°             | 2.7'            | 0.08'                         | 2.1"            |
+| 45°             | 1.0'            | 0.02'                         | 0.8"            |
+| 60°             | 0.6'            | 0.01'                         | 0.4"            |
+
+* Exercise: measure the squash, then time the lift
+:PROPERTIES:
+:CUSTOM_ID: exercise
+:END:
+
+** Friday Oct 23
+
+A near-full Moon rising due east is the best refraction target of the year, and
+at 2.39 arcseconds per pixel the Seestar makes the effect countable: the disk
+is about 800 pixels wide and the predicted squash at two degrees is 59 of them.
+Moonrise is 17:12 at azimuth 87 degrees, well before sunset at 18:44, so this
+is a daylight shoot. Take frames at 17:15 (centre on the horizon, predicted
+vertical/horizontal ratio 0.79), 17:25 (2.1 degrees, 0.925) and 17:45 (6.2
+degrees, 0.982), then one at 21:00 at 44.7 degrees as the round control, and
+plot ratio against altitude. At 18:45 Saturn is 10.6 degrees up and 8.6 degrees
+from the Moon: shoot it for the colour spread, about 4 arcseconds, and again at
+22:00 at 48 degrees where it is a fifth of that. Saturn transits 23:57 at 58.3
+degrees.
+
+** Saturday Oct 24
+
+Time the lift instead of measuring it. The leading limb clears a flat horizon
+at 17:39, the almanac moonrise is 17:41, and the Moon's centre does not
+geometrically reach the horizon until 17:44, so five minutes of what you watch
+is an object that is not there yet. Pick a flat eastern view at azimuth 79
+degrees and catch first light with a stopwatch. Then repeat the squash
+measurement at 17:55 (2.2 degrees, 0.928) and 18:05 (4.2 degrees, 0.967), and
+close with the control at 23:00 when the Moon is 61.4 degrees up and Saturn
+55.9.
+
+* Sky context
+:PROPERTIES:
+:CUSTOM_ID: sky
+:END:
+
+| Item                     | Friday Oct 23  | Saturday Oct 24 |
+|--------------------------+----------------+-----------------|
+| Sunset                   | 18:44          | 18:43           |
+| Astronomical dark        | 20:07          | 20:06           |
+| Moonrise (azimuth)       | 17:12 (87°)    | 17:41 (79°)     |
+| Moon illuminated         | 94.4%          | 98.3%           |
+| Moon apparent diameter   | 31.96'         | 32.36'          |
+| Moon altitude at 21:00   | 44.7°          | 39.9°           |
+| Saturn altitude at 22:00 | 48.0°          | 48.6°           |
+| Saturn transit           | 23:57 at 58.3° | 23:52 at 58.2°  |
+| Moon–Saturn separation   | 8.6°           | 8.8°            |
+
+Full Moon falls Oct 25 at 23:11 CDT with perigee two days later at 363,000 km,
+so the disk runs near 32.7 arcminutes, five percent wider than average. The
+Moon is up for all of both nights and deep sky is effectively out: M31 reaches
+64.6 degrees at 22:00 but sits 38 degrees from a 94 percent Moon. Uranus rises
+20:28 and transits 03:28 at 77.8 degrees. The sky reopens next weekend, when a
+70 percent Moon holds off until 22:46 on Oct 30.
+
+* Retrieval questions
+:PROPERTIES:
+:CUSTOM_ID: retrieval
+:END:
+
+1. Using the cotangent rule, estimate refraction at 5 degrees and at 45
+   degrees, and compare with the table. Then say how many of its own diameters
+   the Sun sits below the geometric horizon at the moment of published sunset.
+
+2. Why does refraction squash the Moon vertically and never horizontally?
+   Answer in terms of what the lower limb and the right-hand limb each pass
+   through.
+
+3. A Seestar frame shows the lunar disk 803 pixels wide and 770 pixels tall.
+   What was the Moon's altitude when the frame was taken, and roughly what time
+   was it on Saturday night?
+
+4. In two sentences for a Frisco StarFest visitor: why is the sunset time in
+   the newspaper not the moment the Sun is actually at the horizon?
+
+/Answers due at the opening of Session 9./
+
+* Source and accuracy review
+:PROPERTIES:
+:CUSTOM_ID: review
+:END:
+
+Imported from [[https://docs.google.com/document/d/17paapwfZA2_7R4TZbYogSTs0PljeC9l9u3c6natPHkk/edit][Session 8 in Google Drive]] on 2026-11-05.
+The lesson text above preserves the source, including dated predictions and
+worked answers. These are teaching plans, not evidence that an observation was
+performed. Review notes below qualify or correct the text without rewriting it.
+
+** Worked answers and refraction model
+
+- The seeing arithmetic should read (1/sin 25 degrees)^0.6 = 1.677,
+  giving 4.19 arcsec, or 4.2 arcsec rather than 4.1. The eight-inch and
+  sampling qualifications in Session 7's review apply here too. No recorded
+  midnight observation is supplied, so the answer's failure is a prediction.
+- Refraction depends on pressure, temperature, wavelength and atmospheric
+  structure. The cotangent approximation is about R = 1 arcmin × cot(h)
+  away from the horizon; it diverges at zero altitude and cannot predict
+  horizon refraction. The table does not specify a model, atmospheric
+  conditions, or whether h is true or apparent altitude. Its near-horizon
+  flattening numbers are therefore illustrative, not calibrated predictions.
+- A constant 1.3 percent colour difference needs specified wavelengths.
+  At the table's 34 arcmin horizon lift it would imply 26.5 arcsec, not
+  22 arcsec. Without wavelength endpoints the dispersion column is not
+  independently reproducible. Horizontal width is approximately unchanged
+  in a small-field, vertically stratified model, not exactly invariant in
+  every real atmosphere.
+- Almanac moonrise already means the apparent upper limb meets the ideal
+  horizon (whether that limb is illuminated depends on phase). Do not add
+  another earlier upper-limb event to the published time. Thus 17:39 versus
+  17:41 is not explained by the stated geometry. Terrain, weather and the
+  bright limb can shift what an observer actually detects.
+- The 803 by 770 pixel question is hypothetical. Its 4.11 percent flattening
+  is correct, but a unique altitude needs a specified refraction model and
+  uncertainty. Linear interpolation between the source table's 2 and 5
+  degree rows gives about 4.1 degrees, not 3.5. That interpolation is itself
+  only approximate because the relationship is nonlinear; Session 9's
+  18:01 answer must not be read as a measured timestamp.
+
+** Historical sky data
+
+Using the PyEphem conventions documented in Session 7's review gives upper-limb
+moonrise about 17:10 CDT on Oct 23 and 17:40 CDT on Oct 24, compared with
+17:12 and 17:41 in the source. Atmospheric and horizon conventions matter at
+this precision. Sunset, dusk, the listed 21:00 lunar altitudes, Saturn's 22:00
+altitudes and its transit times broadly agree. The source's lunar diameters
+lack a reference time and topocentric/geocentric convention; these vary through
+the night, so their quoted hundredth-arcminute precision is not justified.
+USNO places Full Moon on Oct 25 at 23:12 CDT, one minute after the source.
+At a distance of 363,000 km a 3,475 km lunar diameter subtends about 32.9
+arcmin. Perigee timing and the original exact double-star separations have not
+been independently verified in this migration. All original figures remain
+above as historical predictions, not actual observations.
+
+** References
+
+- [[https://aa.usno.navy.mil/faq/RST_defs][USNO: rise, set and twilight definitions]]
+- [[https://britastro.org/2019/atmospheric-refraction][British Astronomical Association: refraction and conditions]]
+- [[https://aa.usno.navy.mil/calculated/moon/phases?year=2026][USNO: 2026 lunar phases]]
+- [[https://rhodesmill.org/pyephem/quick.html][PyEphem: coordinate and rise/set conventions]]
